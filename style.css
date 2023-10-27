@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=IBM+Plex+Sans+Arabic:wght@200;400&family=Outfit:wght@400;700&family=Poppins&display=swap');
+/* variables */
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--Light-gray);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* container */
+.container{
+    width: 400px;
+    padding: 20px;
+    background-color: var(--White);
+    border-radius: 20px;
+}
+.container img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+    font-weight: 700;
+}
+.container p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+/* attribution */
+.attribution{
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
